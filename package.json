@@ -1,0 +1,14 @@
+{
+  "name": "testua",
+  "version": "1.0.7",
+  "description": "自动检测浏览器UA环境，供业务使用",
+  "main": "index.js",
+  "keywords": [
+    "UA","浏览器","检测"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aoxuehanshuang",
+  "license": "ISC"
+}
