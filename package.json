@@ -1,6 +1,6 @@
 {
   "name": "testua",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "自动检测浏览器UA环境，供业务使用",
   "main": "index.js",
   "keywords": [

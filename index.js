@@ -3,8 +3,11 @@ function testUA() {
     let interval = ''
     if (typeof window != 'undefined') {
         window.onresize = function () {
-            if (interval) clearInterval(interval)
-            interval = setTimeout(function () { test() }, 100)
+            // if (interval) clearInterval(interval)
+            // interval = setTimeout(function () { test() }, 100)
+            if(window.location.href.indexOf('debugger=true')){
+                window.location.reload()
+            }
         }
         function test() {
             let ua = navigator.userAgent;
